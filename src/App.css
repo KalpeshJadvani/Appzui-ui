@@ -23,6 +23,32 @@
   color: #61dafb;
 }
 
+
+.input-number{
+  display: inline-block;
+  width: 25%;
+  min-width: 200px;
+  float: left;
+}
+
+.clear-button{
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: 3px;
+  float: left;
+  text-align: center;
+
+}
+.pluse-button{
+  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: 3px;
+  float: left;
+  text-align: center;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
