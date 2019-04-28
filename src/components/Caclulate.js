@@ -41,8 +41,6 @@ class Caclulate extends Component {
             var Aarry = this.state.sets.split(',').map(function(item) {
                 return parseInt(item, 10);
             });
-
-
             axios
                 .post(`/api`, {
                     indexnumber: 1,
@@ -78,7 +76,7 @@ class Caclulate extends Component {
 
     LCMFindnumbers(lcm_array) {
         if (toString.call(lcm_array) !== "[object Array]")  
-            return  false;  
+            return  false;
         var r1 = 0, r2 = 0;
         var l = lcm_array.length;
         for(let i=0;i<l;i++) {
@@ -126,7 +124,6 @@ class Caclulate extends Component {
                         <div className="btn-group">
                             <button type="button" className=" btn btn-primary btn-md clear-button" onClick={this.calculatLCM.bind(this)}>Calculat LCM</button>
                         </div>
-                        
                     </div>
                 </div>
             </div>

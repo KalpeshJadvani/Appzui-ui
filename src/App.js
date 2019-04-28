@@ -23,7 +23,7 @@ class App extends Component {
         axios
         .get(`/api`)
         .then(res => {
-            console.log("@@@@", res)
+            //console.log("@@@@", res)
             this.setState({
                 data:res.data,
             });
